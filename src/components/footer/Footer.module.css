@@ -1,0 +1,36 @@
+.footerOuterDiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 3rem;
+  top: -18rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerDiv {
+  display: flex;
+}
+
+.footerDiv div {
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.7rem;
+  margin-left: 1rem;
+  border-bottom: 3px solid rgb(67, 141, 202);
+}
+
+.footerSecondDiv {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.footerSecondDiv div {
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.7rem;
+  margin-left: 1rem;
+  border-bottom: 3px solid rgb(67, 141, 202);
+}

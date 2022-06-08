@@ -1,0 +1,60 @@
+.matchWeekHeading {
+  font-size: 2.3rem;
+  padding-top: 2rem;
+  padding-left: 1.7rem;
+  margin-bottom: 1.2rem;
+}
+.matchWeekCardContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.matchWeekCardDiv {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+  width: 50%;
+  /* margin-top: 1rem; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12rem;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 760px) {
+  .matchWeekCardDiv {
+    width: 100%;
+  }
+}
+
+.matchWeekImgDiv img {
+  width: 25px;
+  height: 25px;
+}
+
+.matchWeekImgDiv {
+  display: flex;
+  gap: 2rem;
+  width: 23rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.matchWeekFlexDiv {
+  display: flex;
+}
+.score {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.rightMatchWeekDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 0.7rem;
+  border-left: 1px solid grey;
+  padding-left: 1rem;
+}

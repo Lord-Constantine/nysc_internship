@@ -1,0 +1,6 @@
+.headerImg_container img {
+  position: relative;
+  height: 30rem;
+  object-fit: cover;
+  width: 100%;
+}

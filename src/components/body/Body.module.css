@@ -1,0 +1,67 @@
+.img_container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  top: -20rem;
+}
+
+.img_container img {
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 200px;
+}
+
+.outerDiv {
+  padding: 2rem 3.2rem;
+}
+
+.logoImgContainer img {
+  width: 80px;
+  aspect-ratio: 1/1;
+  margin-left: 2.5rem;
+}
+
+.cardContainer {
+  display: flex;
+  width: 30rem;
+  height: 13rem;
+  box-shadow: 0 5px 10px grey;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.leagueName {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 13rem;
+  margin-left: 1rem;
+}
+
+.cardInnerContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cardContainer :hover {
+  box-shadow: 0 5px 10px grey;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.centerDiv {
+  height: fit-content;
+}
