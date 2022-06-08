@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../../../UI/Card";
 import classes from "./LeagueBody.module.css";
 import imgx from "../../../assests/display-img.png";
-import LeagueTable from "./LeagueTable/LeagueTable";
 import { Link, useLocation } from "react-router-dom";
 // import MatchTable from "./MatchTable/MatchTable";
 const LeagueBody = ({ children }) => {
