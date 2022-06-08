@@ -23,7 +23,10 @@ const LeagueBody = ({ children }) => {
               }}
             >
               <div className={classes.hover_flow_up}>
-                <span className={classes.first_span}> All Competitions</span>
+                <Link to="/" className={classes.first_span}>
+                  {" "}
+                  All Competitions
+                </Link>
                 <span className={classes.second_span}> v</span>
               </div>{" "}
               /
